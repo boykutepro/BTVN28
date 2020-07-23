@@ -68,7 +68,7 @@ class ViewController: UIViewController, CAAnimationDelegate {
     @objc func handleTap() {
         print("Tapped")
         
-        countdownProgressBar.startCoundown(duration: 10, showPulse: false)
+        countdownProgressBar.startCoundown(duration: 10, showPulse: true)
     }
     
     func animateGradient() {
